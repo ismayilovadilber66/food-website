@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HTML practise</title>
+
+  <style>
+    table, th, td{
+      border: 1px solid red;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img class="logo" src="images/logo.png">
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Menu</a></li>
+        <li><a href="#">Gallary</a></li>
+        <li><a href="#">Review</a></li>
+        <li><a href="#">Order</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+      <h1>Get Fresh Food in a Easy Way</h1>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque omnis velit voluptatibus placeat similique numquam unde exercitationem asperiores, id corrupti cumque voluptatem perferendis voluptate pariatur repellat, dolore provident qui maxime.
+      </p>
+    
+      <table>
+        <caption>This table is an example</caption>
+        <colgroup>
+         <col span="3" style="background: orange;">
+        </colgroup>
+        <thead>
+          <tr >
+            <th>Name</th>
+            <th>Surname</th>
+            <th>Age</th>
+            <th>Country</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Dilbar</td>
+            <td>Ismayilova</td>
+            <td>23</td>
+            <td>Azerbaijan</td>
+          </tr>
+
+          <tr>
+            <td>Bob</td>
+            <td>Ehmedov</td>
+            <td>35</td>
+            <td>England</td>
+          </tr>
+
+          <tr >
+            <th>Job</th>
+            <th>Company</th>
+            <th>Sex</th>
+            <th>Nationality</th>
+          </tr>
+      </tbody>
+       <tfoot>
+        <tr>
+          <td>Accountant</td>
+          <td>Apple</td>
+          <td>Female</td>
+          <td>English</td>
+        </tr>
+       </tfoot> 
+      </table>
+
+      <form action="https://google.com/api/login" method="post">
+        <label for="username">Name</label>
+        <input type="text" placeholder="you name" id="username" name="username" required>
+        <br/>
+
+        <label for="password">Password</label>
+        <input type="password" placeholder="your password" id="password" name="password">
+        
+        <label for="your email">Email</label>
+        <input type="email" placeholder="you email" id="your email">
+        <br/>
+        <label for="">Number</label>
+        <input type="text" placeholder="you number">
+        <br/>
+        <label for="">How much</label>
+        <input type="number" placeholder="how many order">
+        <br/>
+        <label for="">You order</label>
+        <input type="text" placeholder="food name">
+        <br/>
+        <label for="">Address</label>
+        <input type="text" placeholder="you address">
+        <br/>
+        <label>female</label>
+        <input type="radio">
+        <br/>
+        <label for="sex">Sex:</label>
+        <input type="radio" name="sex" id="female" value="female">
+        <label for="female">Female</label>
+        <input type="radio" name="sex" id="male" value="male">
+        <label for="male">Male</label>
+        <br/>
+        <select name="country" id="country">
+          <option vale="azerbaijan">Azerbaijan</option>
+
+          <option value="turkey">Turkey</option>
+
+          <option value="india">
+            India
+          </option>
+
+          <option value="sweeden">
+            Sweeden
+          </option>
+
+          <option value="russia">
+            Russia
+          </option>
+
+          <option value="usa">
+            The USA
+          </option>
+        </select>
+        <br/>
+        <label for="message">Message:</label><br/>
+        <textarea name="text" id="message" cols="30" rows="10"></textarea>
+        <input type="submit">
+      </form>
+    </section>
+  </main>
+</body>
+</html>
