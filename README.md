@@ -1,10 +1,10 @@
 # Food Website <br/>
 
-##  Layihənin məqsədi:
-
 ### Ümumi baxış <br/>
 
 Bu layihə HTML və CSS istifadə edən elementlərə tətbiq olunan sadə hover effektini nümayiş etdirir. O, interaktiv istifadəçi interfeyslərinin yaradılmasında CSS xassələrinin və onların tətbiqinin başa düşülməsini artırmaq üçün praktika məqsədi ilə yaradılmışdır. (Layihə responsive deyildir.)
+
+![Alt text](https://github.com/ismayilovadilber66/food-website/blob/ced65bed5d0c86fcfc4b1a99e84ccadea80df606/food.png)
 
 ### Xüsusiyyətlər
 
